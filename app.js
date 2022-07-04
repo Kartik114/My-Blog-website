@@ -6,9 +6,9 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-const homeStartingContent = "Welcome to  my first Blog website .I Hope you will love this. This contains various sections like About page , Contact page and Home page respectively. Also user can compose various Blogs in this with the compose page with a new Title and Body.";
-const aboutContent = "I am currently undergraduate at IIIT Allahabad. I am in Fifth Semester and currently having 8.92 Aggregate CGPA. I am Passionate about Programming and Problem solving with Interest in Problem solving.";
-const contactContent = "You can come in touch with me via following";
+const homeStartingContent = "Welcome to  my first Blog website .I Hope you will love this. This contains various sections like About info page , Contact me page and Home page respectively. Also user can compose various Blogs via compose button .Click below button to compose your own Blog 😊.";
+const aboutContent = "I am currently undergraduate at IIIT Allahabad. I am in Fifth Semester and currently having 8.92 Aggregate CGPA. I am Passionate about Programming and Problem solving with Interest in Problem solving and Web-developement.";
+const contactContent = "Hey 😊 , You can Contact with me via following :";
 
 const app = express();
 let posts = [];
